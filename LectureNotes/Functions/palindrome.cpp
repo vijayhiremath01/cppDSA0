@@ -9,7 +9,6 @@ bool isPalindrome(string str){
         if(str[i] != str[n - 1 - i]){
             return false ;
         }
-
     }
     return true ; 
 }
