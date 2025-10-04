@@ -19,10 +19,12 @@ int main() {
    cout << vec.size() << endl ; 
    // to check if the vector is empty or not 
    cout << vec.empty() << endl ; 
+   // to print the value at pertciular index 
+   cout << vec.at(1) << endl ; 
    // to print value of vector 
    for(int val : vec){
     cout << val  << endl ;
    }
-
    return 0 ; 
 }
+
