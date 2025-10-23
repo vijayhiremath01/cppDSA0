@@ -4,7 +4,7 @@ using namespace std ;
 //Linear search Alogrithm 
 int main() {
     int n ; 
-    int target ; 
+    int target ;
     cout << "Enter the size of the array : " << endl ;
     cin >> n ; 
     int arr[n];
