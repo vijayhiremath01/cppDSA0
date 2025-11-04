@@ -17,8 +17,4 @@ int main() {
     for(int i = 0 ; i < n ; i++){
         if(arr[i] == target ){
             cout << "Target value found at index " << i << endl ; 
-            return i ; 
-        }
-    }
-    return -1 ; 
-}
+            return i 
