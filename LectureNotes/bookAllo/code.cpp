@@ -2,6 +2,7 @@
 #include <vector>
 using namespace std ;
 
+// to check whether it is valid or not !
 bool isValid(vector<int> &arr , int n , int m , int maxAllowedPages ) { // O(n)
   int studentCount = 1 , pageSum = 0 ; 
     for(int i = 0 ; i < n ; i++){
